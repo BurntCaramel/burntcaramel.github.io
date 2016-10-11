@@ -12,6 +12,9 @@ body {
 body.home {
 	background-color: #FFE200;
 }
+body.products {
+	background-color: #252525;
+}
 body.about {
 	background-color: #FF5400;
 }
@@ -69,7 +72,6 @@ h2 {
 h3 {
 	font-size: 24px;
 }
-
 h5 {
 	font-size: 1rem;
 	font-weight: normal;
@@ -86,12 +88,23 @@ li {
 
 .mark {
 	position: absolute;
-	top: 5px;
-	right: 8px;
+	top: 0;
+	right: 0;
 	text-align: right;
 	font-size: 13px;
 	font-weight: normal;
 	font-style: italic;
+}
+.mark a {
+	display: block;
+	padding: 5px 8px;
+}
+.mark a:hover {
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.1666);
+	border-radius: 2px;
+}
+.mark .text {
 	opacity: 0.3;
 }
 
@@ -117,6 +130,9 @@ nav.primary {
 .major-item {
 	margin-bottom: 1.42em;
 	text-align: right;
+}
+.major-item--centered {
+	text-align: center;
 }
 .major-item a {
 	display: block;
