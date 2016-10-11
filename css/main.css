@@ -107,24 +107,30 @@ nav.primary {
 
 /* About */
 
-.links-list {
+.links {
 	list-style: none;
 	text-align: center;
 }
 
 /* Influences */
 
-.influence {
+.major-item {
 	margin-bottom: 1.42em;
 	text-align: right;
 }
-.influence a {
+.major-item a {
 	display: block;
 	color: inherit !important;
 }
-.influence a:hover {
+.major-item a:hover {
 	margin: -0.5em -0.666em;
 	padding: 0.5em 0.666em;
 	text-decoration: none;
 	background-color: rgba(255, 255, 255, 0.1666);
+	border-radius: 2px;
+}
+.major-item .fa {
+	width: 1.777em;
+	font-size: 200%;
+	vertical-align: middle;
 }
