@@ -1,14 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	margin: 0;
     font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
 	font-size: 20px;
 	line-height: 1.42;
-	color: #303030;
+}
+body.home {
 	background-color: #FFE200;
 }
-body * {
-	margin: 0;
-	padding: 0;
+body.about {
+	background-color: #FF5400;
+}
+body.influences {
+	background-color: #00CEFF;
+}
+body.blog {
+	background-color: #F6F1F6;
+}
+body.dark-text,
+body.light-text .inverse,
+body.light-text article a {
+	color: #303030;
+}
+body.light-text,
+body.dark-text .inverse,
+body.dark-text article a {
+	color: #ececec;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a.inherit {
+	color: inherit;
 }
 
 .content {
@@ -17,13 +49,40 @@ body * {
 	padding: 1em;
 }
 
+header {
+	margin-bottom: 1.42rem;
+}
+header > * {
+	text-align: center;
+}
+
 h1 {
 	margin-bottom: 1em;
 	text-align: center;
+}
+h1 {
+	font-size: 24px;
+}
+h2 {
 	font-size: 32px;
 }
+h3 {
+	font-size: 24px;
+}
 
+h5 {
+	font-size: 1rem;
+	font-weight: normal;
+	opacity: 0.5;
+}
 
+p {
+	margin-bottom: 1.42em;
+}
+
+li {
+	margin-bottom: 0.71em;
+}
 
 .mark {
 	position: absolute;
@@ -36,10 +95,36 @@ h1 {
 	opacity: 0.3;
 }
 
+/* Home */
+
 nav.primary {
 	position: relative;
 	top: 50vh;
 	margin-top: -3em;
 	padding: 0 8vw;
 	text-align: right;
+}
+
+/* About */
+
+.links-list {
+	list-style: none;
+	text-align: center;
+}
+
+/* Influences */
+
+.influence {
+	margin-bottom: 1.42em;
+	text-align: right;
+}
+.influence a {
+	display: block;
+	color: inherit !important;
+}
+.influence a:hover {
+	margin: -0.5em -0.666em;
+	padding: 0.5em 0.666em;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.1666);
 }
