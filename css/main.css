@@ -117,6 +117,13 @@ nav.primary {
 	padding: 0 8vw;
 	text-align: right;
 }
+nav.primary a:hover {
+	margin: -0.125em -0.375em;
+	padding: 0.125em 0.375em;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.1666);
+	border-radius: 2px;
+}
 
 /* About */
 
