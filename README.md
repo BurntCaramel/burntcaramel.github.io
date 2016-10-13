@@ -22,6 +22,10 @@ It has links to my online presences, such as LinkedIn, GitHub, CodePen, Behance,
 
 ## Designs
 
+I sketched out a rough image of my home page — the layout and the colour scheme.
+
+![Home page](https://raw.githubusercontent.com/BurntCaramel/burntcaramel.github.io/master/docs/sketch.png)
+
 I used the design tool Figma to create my page designs: https://www.figma.com/file/HYojeascIHBqCCYSjvJQROYs/Burnt-Caramel-2016
 
 I went mobile-first, because I wanted it to design to the most constrained size first, and also it is becoming ever more popular — I want someone on the go to be able to look at my website on their phone without any trouble.
